@@ -5,3 +5,7 @@ edition = "2021"
 
 [dependencies]
 clap = "4.5.16"
+
+[dependencies.rusqlite]
+version = "0.32.0"
+features = ["bundled"]
